@@ -1,0 +1,44 @@
+#titleText{
+  color:white;
+  text-align: center;
+  text-shadow:#246a9c 1px 0 10px;
+  font-size: 70px
+}
+
+body{
+  background-color:#41a9f2;
+  font-family: 'Francois One', sans-serif;
+
+}
+p {
+text-align:center;
+  color:white;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-top: : 0%;
+    width: 100%;
+
+}
+}
+#name{
+  padding:20px;
+  color:white;
+  font-size:30px;
+  text-align:left;
+  margin-left: 5%;
+  border:10px solid rgb(209, 83, 71);
+  display: inline-block;
+  border-radius: 20%
+}
+border{
+  background-color:rgb(209, 83, 71);
+}
